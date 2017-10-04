@@ -35,6 +35,7 @@ We can apply stochastic gradient descent to the problem of finding the above coe
 Given each training instance:
 
 1)Calculate a prediction using the current values of the coefficients.
+
 2)Calculate new coefficient values based on the error in the prediction.
 
 The process is repeated until the model is accurate enough (e.g. error drops to some desirable level) or for a fixed number iterations.
